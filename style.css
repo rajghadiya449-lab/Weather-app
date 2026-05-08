@@ -1,0 +1,173 @@
+*{margin: 0;padding: 0;
+}
+body{
+    color: rgb(255, 255, 255);
+    background-color: black;
+    justify-content: center;
+    text-align: center;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    
+    height: 100px;
+}
+.logo{
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 30px;
+    height: 100px;
+    font-size: xx-large;
+    justify-content: space-around;
+    filter: drop-shadow(16px 7px 8px #d21369);
+}
+.logo img{
+    margin: 0;
+height: 100px;
+}
+.cit{
+    margin: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 30px;
+}
+#city{
+    height: 30px;
+    width: 250px;
+}
+.btn{
+    height: 30px;
+    width: 100px;
+}
+
+main{
+    margin: 50px;
+    text-align: center;
+    justify-content: center;
+    height: 25rem;
+    width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2rem;
+    color: black;
+    
+
+}
+
+
+.label{
+    font-size: larger;
+    font-weight: bolder;
+    color: aliceblue;
+    
+}
+#weather-info{
+    font-size: xx-large;
+    font-weight: 900;
+    box-sizing: content-box;
+    background-position: center;
+    background-size: cover;
+}
+.img1{
+
+    justify-content: center;
+    text-align: center;
+    height: 150px;
+    width: 150px;  
+}
+.ui2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 100px;
+    height: 20rem;
+    width: 50rem;
+}
+.log{
+    height: 150px;
+    width: 150px;
+    border: 10px rgb(0, 0, 0);
+    border-style: double;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 5rem;
+
+}
+.info{
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    flex-direction: column;
+}
+#temp{
+    font-size: 5rem;
+    font-weight: 900;
+}
+@media only screen and (max-width: 600px) {
+    body{
+        width: 100%;
+    }
+    nav{
+        width: 100%;
+    }
+    main{
+        width: 100%;
+        height: auto;padding-bottom: 2rem;
+    }
+    
+    #city{
+        width: 11rem;
+    }
+    .btn{
+        margin-top: 1rem;
+        width: 6rem;
+
+    }
+    .logo{
+        font-size: 1.73rem;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: auto;
+        
+    }
+    .app{
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .ui2{
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    .log{
+        
+        border: 0cap;
+        margin-bottom: 0;
+        margin-left: auto;
+        
+    }
+    .info{
+        margin-top: 0;
+        text-align: center;
+        justify-content: center;
+        margin-left: auto;
+    }
+}
